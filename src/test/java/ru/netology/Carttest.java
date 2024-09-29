@@ -42,7 +42,7 @@ public class Carttest {
     }
 
     @ParameterizedTest
-    @CsvFileSource (resources ="src/test/resources/data_positive.csv", numLinesToSkip = 1, delimiter = '|')
+    @CsvFileSource (resources ="/data_positive.csv", numLinesToSkip = 1, delimiter = '|')
     void shouldCardForm(String name, String phone, String expected) {
         driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys(name);
         driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys(phone);
