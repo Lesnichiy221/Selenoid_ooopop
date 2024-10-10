@@ -1,1 +1,1 @@
-[![Java CI with Gradle](https://github.com/Lesnichiy221/Selenoid_ooopop/actions/workflows/gradle-publish.yml/badge.svg)](https://github.com/Lesnichiy221/Selenoid_ooopop/actions/workflows/gradle-publish.yml)
+[![Build status](https://ci.appveyor.com/api/projects/status/2f0p78ydvndeo1tx?svg=true)](https://ci.appveyor.com/project/Lesnichiy221/selenoid-ooopop)
